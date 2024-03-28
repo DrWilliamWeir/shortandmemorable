@@ -4,9 +4,9 @@ WORKDIR /docker
 
 COPY  . /docker 
 
-COPY server/ /docker
+COPY server/ /docker/server
 
-COPY public/ /docker
+COPY public/ /docker/public
 
 RUN npm install
 
