@@ -10,6 +10,6 @@ COPY /public /
 
 RUN npm install
 
-CMD ["node", "start"]
+CMD ["npm", "run"]
 
 
