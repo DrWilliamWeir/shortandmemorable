@@ -4,6 +4,10 @@ WORKDIR /
 
 COPY . /
 
+COPY /server /server
+
+COPY /public /
+
 RUN npm install
 
 CMD ["npm", "start"]
