@@ -10,6 +10,6 @@ COPY /public /
 
 RUN npm install
 
-CMD ["npm", "run"]
+CMD ["npm", "install"]
 
-
+CMD ["node", "/server/index.js"]
